@@ -42,20 +42,20 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/sem%20i1.png )
+![](file:///home/user/os/ex01/img/sem%20i1.png )
 cat < file2
 ## OUTPUT
-![}(file:///home/user/Desktop/sem%20img/semi2.png )
+![](file:///home/user/os/ex01/img/semi2.png )
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi3.png )
+![](file:///home/user/os/ex01/img/semi3.png )
 comm file1 file2
  ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi4.png )
+![](file:///home/user/os/ex01/img/semi4.png )
 diff file1 file2
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi5.png )
+![](file:///home/user/os/ex01/img/semi5.png)
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -66,7 +66,7 @@ Hello world
 This is my world
 ^d
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi6.png )
+![](file:///home/user/os/ex01/img/semi6.png )
 ```
 cat > file22
 ```
@@ -75,15 +75,12 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi7.png )
+![](file:///home/user/os/ex01/img/semi7.png )
 cut -c1-3 file11
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi8.png )
-cut -d "|" -f 1 file22
-## OUTPUT
+![](file:///home/user/os/ex01/img/semi8.png )
 
-
-cat < newfile 
+cat > newfile 
 ```
 Hello world
 hello world
@@ -103,18 +100,18 @@ grep -v hello newfile
 ![](file:///home/user/Desktop/sem%20img/sem11.png )
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![](file:///home/user/os/ex01/img/Screenshot%20at%202025-04-30%2017-32-27.png)
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi12.png )
+![]()
 grep -R ubuntu /etc
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi13.png )
+![](file:///home/user/os/ex01/img/semi12.png )
 
 grep -w -n world newfile
 ## OUTPUT
 
-![](file:///home/user/Desktop/sem%20img/semi14.png )
+![](file:///home/user/os/ex01/img/semi14.png )
 
 cat > newfile
 ```
@@ -125,49 +122,46 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ## Output
-![](file:///home/user/Desktop/sem%20img/semi15.png )
+![](file:///home/user/os/ex01/img/semi15.png  )
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi16.png )
-egrep -w '(H|h)ello' newfile 
-## OUTPUT
 
-![](file:///home/user/Desktop/sem%20img/semi17.png )
+![](file:///home/user/os/ex01/img/semi16.png )
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi17.png )
+![](file:///home/user/os/ex01/img/semi17.png )
 egrep '(^hello)' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi18.png )
+![](file:///home/user/os/ex01/img/semi18.png )
 egrep '(world$)' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi19.png )
+![](file:///home/user/os/ex01/img/semi19.png )
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-![](file:///home/user/Desktop/sem%20img/semi20.png )
+![](file:///home/user/os/ex01/img/semi20.png )
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi21.png )
+![](file:///home/user/os/ex01/img/semi21.png )
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi22.png )
+![](file:///home/user/os/ex01/img/semi22.png )
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi23.png )
+![](file:///home/user/os/ex01/img/semi23.png )
 
 egrep l{2} newfile
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi24.png )
+![](file:///home/user/os/ex01/img/semi24.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![](file:///home/user/Desktop/sem%20img/semi25.png )
+![](file:///home/user/os/ex01/img/semi25.png )
 
 cat > file23
 ```
@@ -185,67 +179,66 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi26.png )
-
+![](file:///home/user/os/ex01/img/semi26.png )
 
 sed -n -e '$p' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi27.png )
+![](file:///home/user/os/ex01/img/semi27.png )
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi%2028.png )
+![](file:///home/user/os/ex01/img/semi%2028.png )
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi29.png )
+![](file:///home/user/os/ex01/img/semi29.png )
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi30.png )
+![](file:///home/user/os/ex01/img/semi30.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi31.png )
+![](file:///home/user/os/ex01/img/semi31.png )
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi32.png )
+![](file:///home/user/os/ex01/img/semi32.png )
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi33.png )
+![](file:///home/user/os/ex01/img/semi33.png)
 
 seq 10 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi34.png )
+![](file:///home/user/os/ex01/img/semi34.png )
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi35.png )
+![](file:///home/user/os/ex01/img/semi35.png )
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi36.png )
+![](file:///home/user/os/ex01/img/semi36.png )
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi37.png )
+![](file:///home/user/os/ex01/img/semi37.png )
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi38.png )
+![](file:///home/user/os/ex01/img/semi38.png )
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi39.png )
+![](file:///home/user/os/ex01/img/semi39.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi40.png )
+![](file:///home/user/os/ex01/img/semi40.png )
 
 sed -n '2,4{s/$/*/;p}' file23
-![](file:///home/user/Desktop/sem%20img/semi41.png )
+![](file:///home/user/os/ex01/img/semi41.png)
 
 #Sorting File content
 cat > file21
@@ -258,7 +251,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi42.png )
+![]()file:///home/user/os/ex01/img/semi42.png)
 
 cat > file22
 ```
@@ -271,12 +264,13 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![](file:///home/user/os/ex01/img/Screenshot%20at%202025-04-30%2018-41-47.png)
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi45.png )
+![](file:///home/user/os/ex01/img/semi43.png )
+![](file:///home/user/os/ex01/img/semi44.png )
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -292,7 +286,7 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi46.png )
+![](file:///home/user/os/ex01/img/semi46.png )
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
@@ -302,7 +296,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi48.png )
+![](file:///home/user/os/ex01/img/semi47.png )
 
 mkdir backupdir
  
@@ -310,19 +304,19 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![](file:///home/user/os/ex01/img/Screenshot%20at%202025-04-30%2018-48-30.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
+![](file:///home/user/os/ex01/img/Screenshot%20at%202025-04-30%2018-50-04.png)
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![](file:///home/user/Desktop/sem%20img/semi49.png )
+ ![](file:///home/user/os/ex01/img/semi49.png )
 gunzip backup.tar.gz
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi50.png )
+![](file:///home/user/os/ex01/img/semi50.png )
  
 # Shell Script
 ```
@@ -332,7 +326,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi51.png )
+![](file:///home/user/os/ex01/img/semi51.png )
  
 cat << stop > herecheck.txt
 ```
@@ -344,7 +338,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi52.png )
+![](file:///home/user/os/ex01/img/semi52.png )
 
 cat < scriptest.sh 
 ```bash
@@ -380,17 +374,17 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi54.png )
+![](file:///home/user/os/ex01/img/semi54.png )
 ls file1
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi55.png )
+![](file:///home/user/os/ex01/img/semi55.png )
 echo $?
 ## OUTPUT 
-![](file:///home/user/Desktop/sem%20img/semi56.png )
+![](file:///home/user/os/ex01/img/semi56.png )
 
 echo $?
 ## OUTPUT 
-![](file:///home/user/Desktop/sem%20img/semi56.png )
+![](file:///home/user/os/ex01/img/semi57.png )
  
 # mis-using string comparisons
 
@@ -421,13 +415,13 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi58.png )
+![](file:///home/user/os/ex01/img/semi58.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi59.png )
+![](file:///home/user/os/ex01/img/semi59.png )
 
 # check file ownership
 cat < psswdperm.sh 
@@ -454,7 +448,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi60.png )
+![](file:///home/user/os/ex01/img/semi60.png )
 
 # check if with file location
 cat > ifnested.sh 
@@ -501,7 +495,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi61.png )
+![](file:///home/user/os/ex01/img/semi61.png )
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -544,7 +538,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-file:///home/user/Desktop/sem%20img/semi62.png )
+![](file:///home/user/os/ex01/img/semi62.png )
 
 # check if a file
 cat > ifnested.sh 
@@ -594,7 +588,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi63.png )
+![](file:///home/user/os/ex01/img/semi63.png )
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -675,7 +669,7 @@ $ chmod 755 whiletest.sh
 $ ./whiletest.sh
  
  ##Output
- ![](file:///home/user/Desktop/sem%20img/semi64.png )
+ ![](file:///home/user/os/ex01/img/semi64.png )
  
 cat untiltest.sh 
 ```bash
@@ -689,7 +683,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  ##Output
- ![](file:///home/user/Desktop/sem%20img/semi65.png )
+ ![](file:///home/user/os/ex01/img/semi65.png )
  
 cat forin1.sh 
 ```bash
@@ -703,7 +697,7 @@ done
  
 $ chmod 755 forin1.sh
  ##Output
-![](file:///home/user/Desktop/sem%20img/semi66.png )
+![](file:///home/user/os/ex01/img/semi66.png )
  
 cat forin2.sh 
 ```bash
@@ -724,12 +718,13 @@ cat forin2.sh
 for test in I don't know if this'll work
 do
 echo “word:$test”
+```
 
 chmod 755 forin2.sh
 
 ./forin2.sh
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi67 )
+![](file:///home/user/os/ex01/img/semi67 )
 
 cat forin3.sh 
 ```bash
@@ -742,7 +737,7 @@ done
 ```
 $ ./forin3.sh 
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi67.png )
+![](file:///home/user/os/ex01/img/semi67.png )
  
 cat forin1.sh 
 ```bash
@@ -756,7 +751,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi66.png )
+![](file:///home/user/os/ex01/img/semi66.png )
 
 cat cities.sh 
 ```bash
@@ -771,7 +766,7 @@ done
 $ chmod 777 cities.sh
 
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi68.png )
+![](file:///home/user/os/ex01/img/semi68.png )
 
 cat forctype.sh 
 ```bash
@@ -785,7 +780,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi69.png )
+![](file:///home/user/os/ex01/img/semi69.png)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -816,7 +812,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi70.png )
+![](file:///home/user/os/ex01/img/semi70.png )
  
 cat forbreak.sh 
 ```bash
@@ -838,7 +834,7 @@ $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
  
  #Output
-![](file:///home/user/Desktop/sem%20img/semi71.png) 
+![](file:///home/user/os/ex01/img/semi71.png )
 
  cat forcontinue.sh
  ```bash
@@ -853,13 +849,14 @@ fi
 echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
+```
 
 chmod 755 forcontinue.sh
 
 ./forcontinue.sh
 
 ##Output
-![](file:///home/user/Desktop/sem%20img/semi72.png )
+![](file:///home/user/os/ex01/img/semi72.png )
 
 cat exread.sh 
 ```bash
@@ -874,7 +871,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi73.png )
+![](file:///home/user/os/ex01/img/semi73.png )
 
  cat exread1.sh
 ```bash
@@ -886,7 +883,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-![](file:///home/user/Desktop/sem%20img/semi73.png )
+![](file:///home/user/os/ex01/img/semi73.png )
 
 $ ./exread1.sh 
  
@@ -907,10 +904,10 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-![](file:///home/user/Desktop/sem%20img/semi74.png )
+![](file:///home/user/os/ex01/img/semi74.png )
  
  ./funcex.sh 1 2
-![](file:///home/user/Desktop/sem%20img/semi75.png )
+![](file:///home/user/os/ex01/img/semi75.png )
  
 cat argshift.sh
 ```bash
@@ -924,7 +921,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![](file:///home/user/Desktop/sem%20img/semi76.png )
+ ![](file:///home/user/os/ex01/img/semi76.png )
 
  cat argshift1.sh
 ```bash
@@ -942,7 +939,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- ![](file:///home/user/Desktop/sem%20img/semi77.png )
+ ![](file:///home/user/os/ex01/img/semi77.png )
 
 cat argshift.sh
 ```bash
@@ -956,7 +953,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- ![](file:///home/user/Desktop/sem%20img/semi78.png )
+ ![](file:///home/user/os/ex01/img/semi78.png )
  
 cat > nc.awk
 ```bash
@@ -972,7 +969,7 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
-cat>data.dat
+cat > data.dat
 ```bash
 bcdfghj
 abcdfghj
@@ -987,7 +984,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- ![](file:///home/user/Desktop/sem%20img/semi79.png )
+ ![](file:///home/user/os/ex01/img/semi79.png )
 
 cat > palindrome.sh
 ```bash
@@ -1015,7 +1012,7 @@ else
 fi
 ```
 ## OUTPUT 
-![](file:///home/user/Desktop/sem%20img/semi80.png )
+![](file:///home/user/os/ex01/img/semi80.png )
 
 # RESULT:
 The Commands are executed successfully.
