@@ -122,19 +122,19 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ## Output
-![](file:///home/user/os/ex01/img/semi15.png  )
+![](img/semi15.png  )
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-![](file:///home/user/os/ex01/img/semi16.png )
+![](img/semi16.png )
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![](file:///home/user/os/ex01/img/semi17.png )
+![](img/semi17.png )
 egrep '(^hello)' newfile 
 ## OUTPUT
-![](file:///home/user/os/ex01/img/semi18.png )
+![](img/semi18.png )
 egrep '(world$)' newfile 
 ## OUTPUT
 ![](file:///home/user/os/ex01/img/semi19.png )
