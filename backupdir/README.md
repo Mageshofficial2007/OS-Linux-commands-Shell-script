@@ -45,11 +45,11 @@ cat < file1
 ![](img/sem%20i1.png)
 cat < file2
 ## OUTPUT
-![](img/semi2.png )
+![](img/semi2.png)
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![](img/semi3.png )
+![](img/semi3.png)
 comm file1 file2
  ## OUTPUT
 ![](file:///home/user/os/ex01/img/semi4.png )
