@@ -42,14 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![](file:///home/user/os/ex01/img/sem%20i1.png )
+![](img/sem%20i1.png )
 cat < file2
 ## OUTPUT
-![](file:///home/user/os/ex01/img/semi2.png )
+![](img/semi2.png )
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![](file:///home/user/os/ex01/img/semi3.png )
+![](img/semi3.png )
 comm file1 file2
  ## OUTPUT
 ![](file:///home/user/os/ex01/img/semi4.png )
