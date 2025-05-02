@@ -42,7 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![](img/sem%20i1.png )
+![](img/sem%20i1.png)
 cat < file2
 ## OUTPUT
 ![](img/semi2.png )
